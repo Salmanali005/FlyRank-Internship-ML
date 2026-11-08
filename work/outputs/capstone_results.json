@@ -1,0 +1,14 @@
+[
+  {
+    "method":"baseline rule",
+    "roc_auc":0.48,
+    "avg_precision":0.473,
+    "precision_at_50":0.32
+  },
+  {
+    "method":"random forest",
+    "roc_auc":0.579,
+    "avg_precision":0.573,
+    "precision_at_50":0.62
+  }
+]

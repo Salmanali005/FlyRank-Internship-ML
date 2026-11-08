@@ -1,0 +1,37 @@
+[
+  {
+    "method":"baseline rule (week 4)",
+    "roc_auc":0.475,
+    "avg_precision":0.472,
+    "precision_at_50":0.34,
+    "precision_at_100":0.32
+  },
+  {
+    "method":"logistic regression",
+    "roc_auc":0.61,
+    "avg_precision":0.607,
+    "precision_at_50":0.76,
+    "precision_at_100":0.77
+  },
+  {
+    "method":"decision tree",
+    "roc_auc":0.585,
+    "avg_precision":0.562,
+    "precision_at_50":0.62,
+    "precision_at_100":0.58
+  },
+  {
+    "method":"random forest",
+    "roc_auc":0.592,
+    "avg_precision":0.577,
+    "precision_at_50":0.68,
+    "precision_at_100":0.63
+  },
+  {
+    "method":"gradient boosting",
+    "roc_auc":0.611,
+    "avg_precision":0.6,
+    "precision_at_50":0.74,
+    "precision_at_100":0.73
+  }
+]
